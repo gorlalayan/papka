@@ -1,9 +1,11 @@
 
 import ReactDOM from 'react-dom/client'
 import './index.css'
+import Word from './word/word'
+
 
 const jsxElement =(
-  <h1 className='word' >Hello</h1>
+  <Word/>
 )
 
 ReactDOM.createRoot(document.getElementById('root')).render(jsxElement)
